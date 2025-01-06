@@ -7,9 +7,10 @@ window.Pusher = Pusher;
 // Configure Laravel Echo with Pusher
 const echo = new Echo({
     broadcaster: "pusher",
-    key: "your_app_key", // Replace with your Pusher key
-    cluster: "mt1",      // Replace with your Pusher cluster
-    forceTLS: true,
+    key: "024b7ef65c69a48f92f3", 
+    cluster: "mt1",            
+    forceTLS: true,          
 });
+
 
 export default echo;
